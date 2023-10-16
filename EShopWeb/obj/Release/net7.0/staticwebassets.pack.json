@@ -1,0 +1,381 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\EShopWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EShopWeb.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\borracha1.jpg",
+      "PackagePath": "staticwebassets\\Images\\borracha1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\caderno1.jpg",
+      "PackagePath": "staticwebassets\\Images\\caderno1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\calculadora1.jpg",
+      "PackagePath": "staticwebassets\\Images\\calculadora1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\cartilha1.jpg",
+      "PackagePath": "staticwebassets\\Images\\cartilha1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\catalog.png",
+      "PackagePath": "staticwebassets\\Images\\catalog.png"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\catalogo1.png",
+      "PackagePath": "staticwebassets\\Images\\catalogo1.png"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\checkout3.jpg",
+      "PackagePath": "staticwebassets\\Images\\checkout3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\clips1.jpg",
+      "PackagePath": "staticwebassets\\Images\\clips1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\escolar\\191082.jpg",
+      "PackagePath": "staticwebassets\\Images\\escolar\\191082.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\escolar\\borracha_branca1.jpg",
+      "PackagePath": "staticwebassets\\Images\\escolar\\borracha_branca1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\escolar\\borracha_cinza1.jpg",
+      "PackagePath": "staticwebassets\\Images\\escolar\\borracha_cinza1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\escolar\\caderno_anotacoes1.jpg",
+      "PackagePath": "staticwebassets\\Images\\escolar\\caderno_anotacoes1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\escolar\\caderno_espiral_100.jpg",
+      "PackagePath": "staticwebassets\\Images\\escolar\\caderno_espiral_100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\escolar\\caneta_bic4.jpg",
+      "PackagePath": "staticwebassets\\Images\\escolar\\caneta_bic4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\escolar\\caneta_bic_celeb1.jpg",
+      "PackagePath": "staticwebassets\\Images\\escolar\\caneta_bic_celeb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\escolar\\caneta_corretiva1.jpg",
+      "PackagePath": "staticwebassets\\Images\\escolar\\caneta_corretiva1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\escolar\\caneta_escreve_apaga1.jpg",
+      "PackagePath": "staticwebassets\\Images\\escolar\\caneta_escreve_apaga1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\escolar\\caneta_hidrografica1.jpg",
+      "PackagePath": "staticwebassets\\Images\\escolar\\caneta_hidrografica1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\escolar\\colabranca1.jpg",
+      "PackagePath": "staticwebassets\\Images\\escolar\\colabranca1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\escolar\\corretivo_emfita1.jpg",
+      "PackagePath": "staticwebassets\\Images\\escolar\\corretivo_emfita1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\escolar\\fichario_univ1.jpg",
+      "PackagePath": "staticwebassets\\Images\\escolar\\fichario_univ1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\escolar\\lapis_coloridos1.jpg",
+      "PackagePath": "staticwebassets\\Images\\escolar\\lapis_coloridos1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\escolar\\papel_sulfite.jpg",
+      "PackagePath": "staticwebassets\\Images\\escolar\\papel_sulfite.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\escolar\\papel_sulfite2.jpg",
+      "PackagePath": "staticwebassets\\Images\\escolar\\papel_sulfite2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\estojo1.jpg",
+      "PackagePath": "staticwebassets\\Images\\estojo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\lapis1.jpg",
+      "PackagePath": "staticwebassets\\Images\\lapis1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\noimage1.png",
+      "PackagePath": "staticwebassets\\Images\\noimage1.png"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\vshop1.jpg",
+      "PackagePath": "staticwebassets\\Images\\vshop1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\Images\\vshop2.jpg",
+      "PackagePath": "staticwebassets\\Images\\vshop2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.EShopWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.EShopWeb.props",
+      "PackagePath": "build\\EShopWeb.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.EShopWeb.props",
+      "PackagePath": "buildMultiTargeting\\EShopWeb.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.EShopWeb.props",
+      "PackagePath": "buildTransitive\\EShopWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
