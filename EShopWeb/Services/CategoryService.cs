@@ -16,9 +16,11 @@ namespace EShopWeb.Services
             _options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
         }
 
-        public async Task<IEnumerable<CategoryViewModel>> GetAllCategories()
+        public async Task<IEnumerable<CategoryViewModel>> GetAllCategories(string token)
         {
             var client = _clientFactory.CreateClient("ProductApi");
+            client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",  token);
+
             IEnumerable<CategoryViewModel> categories;
 
             var response = await client.GetAsync(apiEndpoint);

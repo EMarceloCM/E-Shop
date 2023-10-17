@@ -1,6 +1,8 @@
+using Duende.IdentityServer.Services;
 using EShop.IdentityServer.Configuration;
 using EShop.IdentityServer.Data;
 using EShop.IdentityServer.SeedDatabase;
+using EShop.IdentityServer.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Logging;
@@ -14,6 +16,10 @@ var SqlConnection = builder.Configuration.GetConnectionString("DefaultConnection
 builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(SqlConnection));
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+builder.Services.AddScoped<UserManager<ApplicationUser>>();
+builder.Services.AddScoped<SignInManager<ApplicationUser>>();
+builder.Services.AddScoped<RoleManager<IdentityRole>>();
+
 
 var builderIdentityServer = builder.Services.AddIdentityServer(opt =>
 {
@@ -27,6 +33,7 @@ var builderIdentityServer = builder.Services.AddIdentityServer(opt =>
     .AddAspNetIdentity<ApplicationUser>();
 builderIdentityServer.AddDeveloperSigningCredential();
 builder.Services.AddScoped<ISeedDatabaseInitializer, DatabaseIdentityServerInitializer>();
+builder.Services.AddScoped<IProfileService, ProfileAppService>();
 
 var app = builder.Build();
 
