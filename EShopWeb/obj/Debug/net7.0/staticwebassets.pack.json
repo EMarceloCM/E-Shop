@@ -121,6 +121,10 @@
       "PackagePath": "staticwebassets\\Images\\vshop2.jpg"
     },
     {
+      "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\css\\product.css",
+      "PackagePath": "staticwebassets\\css\\product.css"
+    },
+    {
       "Id": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

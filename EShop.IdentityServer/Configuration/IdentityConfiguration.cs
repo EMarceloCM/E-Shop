@@ -32,15 +32,16 @@ namespace EShop.IdentityServer.Configuration
                 ClientId = "client",
                 ClientSecrets = {new Secret("abracadabra#simsalabim".Sha256())},
                 AllowedGrantTypes = GrantTypes.ClientCredentials,
-                AllowedScopes = {"read", "write", "profile"}
+                AllowedScopes = {"read", "write", "profile"},
+                RedirectUris = { "https://localhost:7297/signin-oidc", "http://localhost:5242/signin-oidc" }
             },
             new Client
             {
                 ClientId = "eshop",
                 ClientSecrets = {new Secret("abracadabra#simsalabim".Sha256())},
                 AllowedGrantTypes = GrantTypes.Code, //via código
-                RedirectUris = {"https://localhost:7117/signin-oidc"}, //login
-                PostLogoutRedirectUris = {"https://localhost:7117/signout-callback-oidc"},
+                RedirectUris = { "https://localhost:7297/signin-oidc", "http://localhost:5242/signin-oidc"}, //login
+                PostLogoutRedirectUris = {"https://localhost:7297/signout-callback-oidc"},
                 AllowedScopes = new List<string>
                 {
                     IdentityServerConstants.StandardScopes.OpenId,

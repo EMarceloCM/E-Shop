@@ -8,7 +8,7 @@ namespace EShopWeb.Services
     public class ProductService : IProductService
     {
         private readonly IHttpClientFactory _clientFactory;
-        private const string apiEndpoint = "/api/products/";
+        private const string apiEndpoint = "/api/Products/";
         private ProductViewModel productVM;
         private IEnumerable<ProductViewModel> productsVM;
         private readonly JsonSerializerOptions _options;

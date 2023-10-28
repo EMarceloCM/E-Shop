@@ -7,7 +7,7 @@ namespace EShop.ProductApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class ProductsController : ControllerBase
     {
         private readonly IProductService _service;
@@ -40,6 +40,7 @@ namespace EShop.ProductApi.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Post([FromBody] ProductDTO dto)
         {
             if (dto == null)
@@ -51,6 +52,7 @@ namespace EShop.ProductApi.Controllers
         }
 
         [HttpPut]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Put([FromBody] ProductDTO dto)
         {
             if (dto == null)

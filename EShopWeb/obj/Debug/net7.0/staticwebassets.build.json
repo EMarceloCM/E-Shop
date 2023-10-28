@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "ldiBAedHqm8yUOMkowpx8ghEr0L2eJceB0e/iKAlTEg=",
+  "Hash": "QBkjMHqx1hXc5VP9tAmqda9reyKkTdU3oXJ1HhqwkbU=",
   "Source": "EShopWeb",
   "BasePath": "_content/EShopWeb",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShop.CartApi\\EShop.CartApi.csproj",
+      "Version": 2,
+      "Source": "EShop.CartApi",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "EShopWeb\\wwwroot",
@@ -49,6 +61,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\EShopWeb.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\css\\product.css",
+      "SourceId": "EShopWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\",
+      "BasePath": "_content/EShopWeb",
+      "RelativePath": "css/product.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\product.css"
     },
     {
       "Identity": "C:\\Users\\edmyl\\source\\repos\\EShop\\EShopWeb\\wwwroot\\css\\site.css",

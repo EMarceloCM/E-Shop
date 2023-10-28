@@ -20,7 +20,6 @@ builder.Services.AddScoped<UserManager<ApplicationUser>>();
 builder.Services.AddScoped<SignInManager<ApplicationUser>>();
 builder.Services.AddScoped<RoleManager<IdentityRole>>();
 
-
 var builderIdentityServer = builder.Services.AddIdentityServer(opt =>
 {
     opt.Events.RaiseErrorEvents = true;
@@ -38,7 +37,7 @@ builder.Services.AddScoped<IProfileService, ProfileAppService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.

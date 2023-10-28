@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "08BmIt4F1gFFmeNxa6dK0YOanDfYAYiCbwrdlvMjMVg=",
+  "Source": "EShop.CartApi",
+  "BasePath": "_content/EShop.CartApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
