@@ -84,15 +84,34 @@ namespace EShop.CartApi.Repositories
             }
             return _mapper.Map<CartDTO>(cart);
         }
-        public Task<bool> ApplyCouponAsync(string userId, string couponCode)
+        public async Task<bool> ApplyCouponAsync(string userId, string couponCode)
         {
-            throw new NotImplementedException();
-        }
-        public Task<bool> DeleteCouponAsync(string userId)
-        {
-            throw new NotImplementedException();
-        }
+            var cartHeaderApplyCoupon = await _context.CartHeaders.FirstOrDefaultAsync(c => c.UserId == userId);
+            if (cartHeaderApplyCoupon != null)
+            {
+                cartHeaderApplyCoupon.CouponCode = couponCode;
 
+                _context.CartHeaders.Update(cartHeaderApplyCoupon);
+                await _context.SaveChangesAsync();
+
+                return true;
+            }
+            return false;
+        }
+        public async Task<bool> DeleteCouponAsync(string userId)
+        {
+            var cartHeaderApplyCoupon = await _context.CartHeaders.FirstOrDefaultAsync(c => c.UserId == userId);
+            if (cartHeaderApplyCoupon != null)
+            {
+                cartHeaderApplyCoupon.CouponCode = "";
+
+                _context.CartHeaders.Update(cartHeaderApplyCoupon);
+                await _context.SaveChangesAsync();
+
+                return true;
+            }
+            return false;
+        }
 
         private async Task SaveProductInBataBase(CartDTO cartDTO, Cart cart)
         {

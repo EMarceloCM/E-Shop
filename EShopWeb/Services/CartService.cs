@@ -91,13 +91,36 @@ namespace EShopWeb.Services
             }
             return false;
         }
-        public Task<bool> ApplyCouponAsync(CartViewModel cartVM, string couponCode, string token)
+        public async Task<bool> ApplyCouponAsync(CartViewModel cartVM, string token)
         {
-            throw new NotImplementedException();
+            var client = _factory.CreateClient("CartApi");
+            PutTokenInHeaderAuthorization(token, client);
+
+            StringContent content = new StringContent(JsonSerializer.Serialize(cartVM), System.Text.Encoding.UTF8, "application/json");
+
+            using (var response = await client.PostAsync($"{apiEndpoint}/applycoupon/", content))
+            {
+                if (response.IsSuccessStatusCode)
+                {
+                    return true;
+                }
+                return false;
+            }
         }
-        public Task<bool> RemoveCouponAsync(string userId, string token)
+        public async Task<bool> RemoveCouponAsync(string userId, string token)
         {
-            throw new NotImplementedException();
+            var client = _factory.CreateClient("CartApi");
+            PutTokenInHeaderAuthorization(token, client);
+
+
+            using (var response = await client.DeleteAsync($"{apiEndpoint}/deletecoupon/{userId}"))
+            {
+                if (response.IsSuccessStatusCode)
+                {
+                    return true;
+                }
+                return false;
+            }
         }
         public Task<bool> ClearCartAsync(string userId, string token)
         {

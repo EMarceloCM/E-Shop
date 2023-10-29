@@ -1,6 +1,5 @@
 ﻿using EShop.CartApi.DTOs;
 using EShop.CartApi.Repositories;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EShop.CartApi.Controllers
@@ -50,6 +49,30 @@ namespace EShop.CartApi.Controllers
 
             if (!status) return BadRequest();
             return Ok(status);
+        }
+
+        [HttpPost("applycoupon")]
+        public async Task<ActionResult<CartDTO>> ApplyCoupon(CartDTO cartDTO)
+        {
+            var result = await _repository.ApplyCouponAsync(cartDTO.CartHeader.UserId, cartDTO.CartHeader.CouponCode);
+
+            if (!result)
+            {
+                return NotFound($"CartHeader not found for UserId = {cartDTO.CartHeader.UserId}");
+            }
+            return Ok(result);
+        }
+
+        [HttpDelete("deletecoupon/{userId}")]
+        public async Task<ActionResult<CartDTO>> DeleteCoupon(string userId)
+        {
+            var result = await _repository.DeleteCouponAsync(userId);
+
+            if (!result)
+            {
+                return NotFound($"Discount Coupon not found for UserId = {userId}");
+            }
+            return Ok(result);
         }
     }
 }

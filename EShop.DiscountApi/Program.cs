@@ -45,6 +45,10 @@ builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(SqlConnectio
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<ICouponRepository, CouponRepository>();
 
+builder.Services.AddCors(op =>
+{
+    op.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+});
 builder.Services.AddAuthentication("Bearer").AddJwtBearer("Bearer", op =>
 {
     op.Authority = builder.Configuration["EShop.IdentityServer:ApplicationUrl"];

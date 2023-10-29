@@ -9,10 +9,11 @@ namespace EShopWeb.Controllers
     public class CartController : Controller
     {
         private readonly ICartService _cartService;
-
-        public CartController(ICartService cartService)
+        private readonly ICouponService _couponService;
+        public CartController(ICartService cartService, ICouponService couponService)
         {
             _cartService = cartService;
+            _couponService = couponService;
         }
 
         [Authorize]
@@ -35,16 +36,43 @@ namespace EShopWeb.Controllers
             if (result) return RedirectToAction(nameof(Index));
             return View(id);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> ApplyCoupon(CartViewModel cartVM)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await _cartService.ApplyCouponAsync(cartVM, await GetAccessToken());
+
+                if (result)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+            }
+
+            return View();
+        }
     
         private async Task<CartViewModel> GetCartByUser()
         {
             var cart = await _cartService.GetCartByUserIdAsync(GetUserId(), await GetAccessToken());
             if (cart?.CartHeader != null)
             {
+                if (!string.IsNullOrEmpty(cart.CartHeader.CouponCode))
+                {
+                    var coupon = await _couponService.GetDiscountCoupon(cart.CartHeader.CouponCode, await GetAccessToken());
+                    if (coupon?.CouponCode is not null)
+                    {
+                        cart.CartHeader.Discount = coupon.Discount;
+                    }
+                }
+
                 foreach (var item in cart.CartItems)
                 {
                     cart.CartHeader.TotalAmount += (item.Product.Price * item.Quantity);
                 }
+
+                cart.CartHeader.TotalAmount = cart.CartHeader.TotalAmount - (cart.CartHeader.TotalAmount * cart.CartHeader.Discount) / 100;
             }
             return cart;
         }
