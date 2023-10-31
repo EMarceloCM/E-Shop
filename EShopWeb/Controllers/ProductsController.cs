@@ -93,7 +93,7 @@ namespace EShopWeb.Controllers
             return View(result);
         }
 
-        [HttpPost(), ActionName("Delet  eProduct")]
+        [HttpPost(), ActionName("DeleteProduct")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var result = await _productService.DeleteProductById(id, await GetAcceessToken());

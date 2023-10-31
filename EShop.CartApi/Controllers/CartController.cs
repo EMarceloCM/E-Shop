@@ -1,11 +1,13 @@
 ﻿using EShop.CartApi.DTOs;
 using EShop.CartApi.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EShop.CartApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CartController : ControllerBase
     {
         private readonly ICartRepository _repository;
@@ -13,6 +15,18 @@ namespace EShop.CartApi.Controllers
         public CartController(ICartRepository repository)
         {
             _repository = repository;
+        }
+
+        [HttpPost("checkout")]
+        public async Task<ActionResult<CheckoutHeaderDTO>> Checkout(CheckoutHeaderDTO checkoutDTO)
+        {
+            var cart = await _repository.GetCartByUserIdAsync(checkoutDTO.UserId);
+            if (cart == null)
+            {
+                return NotFound("Not Found");
+            }
+            checkoutDTO.CartItems = cart.CartItems;
+            checkoutDTO.DateTime = DateTime.UtcNow;
         }
 
         [HttpGet("getcard/{id:int}")]

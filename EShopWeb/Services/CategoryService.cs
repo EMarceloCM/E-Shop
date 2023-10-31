@@ -23,7 +23,7 @@ namespace EShopWeb.Services
 
             IEnumerable<CategoryViewModel> categories;
 
-            var response = await client.GetAsync(apiEndpoint);
+            using var response = await client.GetAsync(apiEndpoint);
             if (response.IsSuccessStatusCode)
             {
                 var apiResponse = await response.Content.ReadAsStreamAsync();
